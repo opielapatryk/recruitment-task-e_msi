@@ -20,20 +20,15 @@
         </ul>
     </div>
     <div id="prawy">
-        <!-- i. Paragraf z danymi kontrahenta (z możliwością wpisania danych) takimi jak:
-1. NIP (textbox)
-2. REGON (int),
-3. NAZWA (textbox),
-4. DATA POWSTANIA (date)
-5. ULICA (textbox),
-6. NUMER DOMU (textbox),
-7. NUMER MIESZKANIA (textbox),
-8. UWAGI (textarea)
-ii. Listy wyboru:
-1. Kolory: (zielony, niebieski, szary, turkusowy, granatowy, czerwony,
-biały)
-2. VAT: (ZW, NP., 0%, 3%, 8%, 23%)
-iii. Listę html up -->
+        <!-- i. Utwórz tabelę o następujących kolumnach:
+1. Lp.
+2. Imię i Nazwisko
+3. Data od:
+4. Data do:
+5. Miejsce wyjazdu:
+6. Miejsce przyjazdu:
+ii. Po załadowaniu strony, pobierz dane do tabeli z bazy danych, która będzie
+zawierała przynajmniej 6 krotek z danymi.  -->
     </div>   
 </body>
 

@@ -1,0 +1,20 @@
+body {
+  display: flex;
+}
+
+#lewy {
+  width: 25%;
+}
+
+#lewy ul li {
+  list-style: none;
+}
+
+#lewy ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#prawy {
+  width: 75%;
+}

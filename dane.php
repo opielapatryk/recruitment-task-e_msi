@@ -20,20 +20,27 @@
         </ul>
     </div>
     <div id="prawy">
-        <!-- i. Paragraf z danymi kontrahenta (z możliwością wpisania danych) takimi jak:
+        <!-- i. Utwórz tabelę o następujących kolumnach:
 1. NIP (textbox)
-2. REGON (int),
+2. REGON (textbox),
 3. NAZWA (textbox),
-4. DATA POWSTANIA (date)
+4. CZY PŁATNIK VAT? (checkbox),
 5. ULICA (textbox),
 6. NUMER DOMU (textbox),
 7. NUMER MIESZKANIA (textbox),
-8. UWAGI (textarea)
-ii. Listy wyboru:
-1. Kolory: (zielony, niebieski, szary, turkusowy, granatowy, czerwony,
-biały)
-2. VAT: (ZW, NP., 0%, 3%, 8%, 23%)
-iii. Listę html up -->
+ii. Stwórz panel do zarządzania danymi:
+1. Dodawanie kontrahenta
+2. Edycja kontrahenta
+3. Usuwanie kontrahenta
+iii. Dane o kontrahentach mają być przechowywane w bazie danych.
+iv. Dodanie kontrahenta ma spowodować dodanie go do bazy danych i
+jednoczesne wyświetlenie kolejnego kontrahenta w tabeli kontrahentów
+v. Edycja kontrahenta ma spowodować modyfikację danych w bazie oraz
+jednocześnie zmianę w ramach wyświetlanego kontrahenta w tabeli
+kontrahentów.
+vi. Usunięcie kontrahenta ma powodować oznaczenie go w bazie danych jako
+usuniętego. Taki kontrahent nie ma być już wyświetlany w ramach tabeli na
+stronie www -->
     </div>   
 </body>
 
