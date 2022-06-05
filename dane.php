@@ -32,20 +32,11 @@
                 <th>Numer mieszkania: </th>
             </tr>
     </table>
-<!-- 
-ii. Stwórz panel do zarządzania danymi:
-1. Dodawanie kontrahenta
-2. Edycja kontrahenta
-3. Usuwanie kontrahenta
-iii. Dane o kontrahentach mają być przechowywane w bazie danych.
-iv. Dodanie kontrahenta ma spowodować dodanie go do bazy danych i
-jednoczesne wyświetlenie kolejnego kontrahenta w tabeli kontrahentów
-v. Edycja kontrahenta ma spowodować modyfikację danych w bazie oraz
-jednocześnie zmianę w ramach wyświetlanego kontrahenta w tabeli
-kontrahentów.
-vi. Usunięcie kontrahenta ma powodować oznaczenie go w bazie danych jako
-usuniętego. Taki kontrahent nie ma być już wyświetlany w ramach tabeli na
-stronie www -->
+    <div id="panel">
+        <div id="dodawanie">Dodawanie</div>
+        <div id="edycja">Edycja</div>
+        <div id="usuwanie">Usuwanie</div>
+    </div>
     </div>   
 </body>
 
