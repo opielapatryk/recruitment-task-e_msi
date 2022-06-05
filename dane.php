@@ -19,15 +19,20 @@
             <li><a href="./dane.php">Dane Kontrahentów</a></li>
         </ul>
     </div>
-    <div id="prawy">dane
-        <!-- i. Utwórz tabelę o następujących kolumnach:
-1. NIP (textbox)
-2. REGON (textbox),
-3. NAZWA (textbox),
-4. CZY PŁATNIK VAT? (checkbox),
-5. ULICA (textbox),
-6. NUMER DOMU (textbox),
-7. NUMER MIESZKANIA (textbox),
+    <div id="prawy">
+        
+    <table>
+            <tr>
+                <th>NIP</th>
+                <th>Regon</th>
+                <th>Nazwa:</th>
+                <th>Czy płatnik VAT:</th>
+                <th>Ulica:</th>
+                <th>Numer domu:</th>
+                <th>Numer mieszkania: </th>
+            </tr>
+    </table>
+<!-- 
 ii. Stwórz panel do zarządzania danymi:
 1. Dodawanie kontrahenta
 2. Edycja kontrahenta

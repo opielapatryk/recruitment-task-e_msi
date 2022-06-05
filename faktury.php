@@ -19,23 +19,27 @@
             <li><a href="./dane.php">Dane Kontrahentów</a></li>
            </ul>
     </div>
-    <div id="prawy">faktury
-        <!-- i. Utwórz tabelę o następujących kolumnach:
-1. Lp.
-2. Opis
-Zadanie zdalne
-3. MPK
-4. Kwota Netto
-5. Ilość
-6. VAT
-7. Kwota Brutto
-8. Wartość Netto
-9. Wartość Brutto
+    <div id="prawy">
+        <table>
+            <tr>
+                <th>Lp.</th>
+                <th>Opis</th>
+                <th>MPK</th>
+                <th>Kwota Netto</th>
+                <th>Ilość</th>
+                <th>VAT</th>
+                <th>Kwota Brutto</th>
+                <th>Wartość Netto</th>
+                <th>Wartość Brutto</th>
+            </tr>
+        </table>
+        <button>Powyżej 1000,00zł Netto</button>
+        <!-- 
 ii. Wypełnij ją przykładowymi danymi dla co najmniej 5 pozycji faktury.
 iii. Tabela powinna być interaktywna co oznacza, że Kwota Brutto, Wartość
 Netto i Wartość Brutto będą przeliczały się w zależności od Kwoty Netto,
 wybranego z listy Vatu oraz Ilości.
-iv. Przycisk Powyżej 1000,00 zł Netto – Po jego wciśnięciu wszystkie wiersze,
+iv. Po  wciśnięciu przycisku wszystkie wiersze,
 które zawierają w polu Kwota Netto > 1000,00 zł podświetlają się na kolor
 zielony.  -->
     </div>   

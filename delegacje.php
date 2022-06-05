@@ -19,14 +19,18 @@
             <li><a href="./dane.php">Dane Kontrahentów</a></li>
              </ul>
     </div>
-    <div id="prawy">delegacje
-        <!-- i. Utwórz tabelę o następujących kolumnach:
-1. Lp.
-2. Imię i Nazwisko
-3. Data od:
-4. Data do:
-5. Miejsce wyjazdu:
-6. Miejsce przyjazdu:
+    <div id="prawy">
+    <table>
+            <tr>
+                <th>Lp.</th>
+                <th>Imię i Nazwisko</th>
+                <th>Data od:</th>
+                <th>Data do:</th>
+                <th>Miejsce wyjazdu:</th>
+                <th>Miejsce przyjazdu:</th>
+            </tr>
+    </table>
+        <!-- 
 ii. Po załadowaniu strony, pobierz dane do tabeli z bazy danych, która będzie
 zawierała przynajmniej 6 krotek z danymi.  -->
     </div>   
