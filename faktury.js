@@ -27,12 +27,13 @@ bruttoWartosc.forEach((e) => {
 const vatArr = []
 vat = [...vat]
 vat.forEach((e) => {
-        vatArr.push(parseFloat(e.innerHTML))
+        vatArr.push(parseFloat(e.options[e.selectedIndex].value))
     })
     // kwoty brutto
 let kwotyBrutto = []
 for (let i = 0; i < kwotyNetto.length; i++) {
     bruttoKwoty[i].innerHTML = Math.round(kwotyNetto[i] * vatArr[i] * iloscArr[i])
+    bruttoWartosc[i].innerHTML = Math.round(kwotyNetto[i] * vatArr[i] * iloscArr[i])
 }
 // zamienic vat na vat.value
 // kwota netto = 3

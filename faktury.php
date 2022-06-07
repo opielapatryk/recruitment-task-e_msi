@@ -38,7 +38,16 @@
                 <td>Firma usługowa</td>
                 <td>283.74 </td>
                 <td class="ilosc">1</td>
-                <td class="vat">23</td>
+                <td>
+                    <select name="vat" class="vat">
+                        <option value="1.23">23%</option>
+                        <option value="1.22">22%</option>
+                        <option value="1.08">8%</option>
+                        <option value="1.07">7%</option>
+                        <option value="1.05">5%</option>
+                        <option value="1.03">3%</option>
+                    </select>
+                </td>
                 <td class="bruttoKwoty">349</td>
                 <td>283.74 </td>
                 <td class="bruttoWartosc"></td>
@@ -49,9 +58,18 @@
                 <td>Dział programistów</td>
                 <td>12036.11</td>
                 <td class="ilosc">2</td>
-                <td class="vat">8</td>
+                <td>
+                    <select name="vat" class="vat">
+                        <option value="1.23">23%</option>
+                        <option value="1.22">22%</option>
+                        <option value="1.08">8%</option>
+                        <option value="1.07">7%</option>
+                        <option value="1.05">5%</option>
+                        <option value="1.03">3%</option>
+                    </select>
+                </td>
                 <td class="bruttoKwoty">12999</td>
-                <td>12 036.11</td>
+                <td>12036.11</td>
                 <td class="bruttoWartosc"></td>
             </tr>
             <tr>
@@ -60,9 +78,18 @@
                 <td>Departament logistyki </td>
                 <td>1075.61</td>
                 <td class="ilosc">1</td>
-                <td class="vat">23</td>
+                <td>
+                    <select name="vat" class="vat">
+                        <option value="1.23">23%</option>
+                        <option value="1.22">22%</option>
+                        <option value="1.08">8%</option>
+                        <option value="1.07">7%</option>
+                        <option value="1.05">5%</option>
+                        <option value="1.03">3%</option>
+                    </select>
+                </td>
                 <td class="bruttoKwoty">1323</td>
-                <td>1 075.61</td>
+                <td>1075.61</td>
                 <td class="bruttoWartosc">1111</td>
             </tr>
             <tr>
@@ -71,7 +98,16 @@
                 <td>Firma mediowa</td>
                 <td>559.81</td>
                 <td class="ilosc">1</td>
-                <td class="vat">7</td>
+                <td>
+                    <select name="vat" class="vat">
+                        <option value="1.23">23%</option>
+                        <option value="1.22">22%</option>
+                        <option value="1.08">8%</option>
+                        <option value="1.07">7%</option>
+                        <option value="1.05">5%</option>
+                        <option value="1.03">3%</option>
+                    </select>
+                </td>
                 <td class="bruttoKwoty">599</td>
                 <td>559.81</td>
                 <td class="bruttoWartosc">1200</td>
@@ -82,7 +118,16 @@
                 <td>Dział developerów</td>
                 <td>7766.02</td>
                 <td class="ilosc">1</td>
-                <td class="vat">3</td>
+                <td>
+                    <select name="vat" class="vat">
+                        <option value="1.23">23%</option>
+                        <option value="1.22">22%</option>
+                        <option value="1.08">8%</option>
+                        <option value="1.07">7%</option>
+                        <option value="1.05">5%</option>
+                        <option value="1.03">3%</option>
+                    </select>
+                </td>
                 <td class="bruttoKwoty">1000</td>
                 <td>7766.02</td>
                 <td class="bruttoWartosc">1000</td>
