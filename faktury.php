@@ -39,7 +39,7 @@
                 <td>283.74 </td>
                 <td class="ilosc">1</td>
                 <td class="vat">23</td>
-                <td>349</td>
+                <td class="bruttoKwoty">349</td>
                 <td>283.74 </td>
                 <td class="bruttoWartosc"></td>
             </tr>
@@ -50,7 +50,7 @@
                 <td>12036.11</td>
                 <td class="ilosc">2</td>
                 <td class="vat">8</td>
-                <td>12999</td>
+                <td class="bruttoKwoty">12999</td>
                 <td>12 036.11</td>
                 <td class="bruttoWartosc"></td>
             </tr>
@@ -61,7 +61,7 @@
                 <td>1075.61</td>
                 <td class="ilosc">1</td>
                 <td class="vat">23</td>
-                <td>1323</td>
+                <td class="bruttoKwoty">1323</td>
                 <td>1 075.61</td>
                 <td class="bruttoWartosc">1111</td>
             </tr>
@@ -72,7 +72,7 @@
                 <td>559.81</td>
                 <td class="ilosc">1</td>
                 <td class="vat">7</td>
-                <td>599</td>
+                <td class="bruttoKwoty">599</td>
                 <td>559.81</td>
                 <td class="bruttoWartosc">1200</td>
             </tr>
@@ -83,7 +83,7 @@
                 <td>7766.02</td>
                 <td class="ilosc">1</td>
                 <td class="vat">3</td>
-                <td>7999</td>
+                <td class="bruttoKwoty">1000</td>
                 <td>7766.02</td>
                 <td class="bruttoWartosc">1000</td>
             </tr>

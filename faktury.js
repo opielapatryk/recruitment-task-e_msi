@@ -4,6 +4,7 @@ let bruttoWartosc = document.querySelectorAll('.bruttoWartosc')
 const tr = document.querySelectorAll("tr")
 const td = document.querySelectorAll("td")
 const button = document.querySelector("button")
+let bruttoKwoty = document.querySelectorAll(".bruttoKwoty")
     // kwoty netto
 let kwotyNetto = []
 tr.forEach((e) => {
@@ -20,33 +21,29 @@ ilosc.forEach((e) => {
 const bruttoWartoscArr = []
 bruttoWartosc = [...bruttoWartosc]
 bruttoWartosc.forEach((e) => {
-        bruttoWartoscArr.push(parseInt(e.innerHTML))
+        bruttoWartoscArr.push(parseFloat(e.innerHTML))
     })
     // vat
 const vatArr = []
 vat = [...vat]
 vat.forEach((e) => {
-        vatArr.push(parseInt(e.innerHTML))
+        vatArr.push(parseFloat(e.innerHTML))
     })
     // kwoty brutto
-const kwotyBrutto = []
+let kwotyBrutto = []
 for (let i = 0; i < kwotyNetto.length; i++) {
-    kwotyBrutto.push(kwotyNetto[i] * vatArr[i] * iloscArr[i])
+    bruttoKwoty[i].innerHTML = Math.round(kwotyNetto[i] * vatArr[i] * iloscArr[i])
 }
-kwotyBrutto.forEach(() => {
-        bruttoWartosc.innerHTML
-    })
-    // update brutto td
-    // zamienic vat na vat.value
-    // kwota netto = 3
-    // ilosc = 4
-    // vat = 5
-    // kwota brutto = 6
-    // wartosc netto = 7
-    // wartosc brutto = 8
-    // wartosc netto = kwota netto
-    // kwota brutto = kwota netto * ilosc * (1 + VAT)
-    // let parent = document.querySelectorAll('.bruttoWartosc').parentNode
+// zamienic vat na vat.value
+// kwota netto = 3
+// ilosc = 4
+// vat = 5
+// kwota brutto = 6
+// wartosc netto = 7
+// wartosc brutto = 8
+// wartosc netto = kwota netto
+// kwota brutto = kwota netto * ilosc * (1 + VAT)
+// let parent = document.querySelectorAll('.bruttoWartosc').parentNode
 
 const zmienkolor = function() {
     bruttoWartosc.forEach((e) => {
