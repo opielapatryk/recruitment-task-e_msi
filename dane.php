@@ -23,19 +23,64 @@
         
     <table>
             <tr>
-                <th>NIP</th>
-                <th>Regon</th>
+                <th>NIP:</th>
+                <th>Regon:</th>
                 <th>Nazwa:</th>
                 <th>Czy płatnik VAT:</th>
                 <th>Ulica:</th>
                 <th>Numer domu:</th>
                 <th>Numer mieszkania: </th>
             </tr>
+            <?php
+                $conn = mysqli_connect("localhost", "root", "", "rekrutacjaopiela" );
+                                
+                if (isset($_POST['nip']) && isset($_POST['regon']) && isset($_POST['nazwa']) && 
+                isset($_POST['ulica']) && isset($_POST['dom']) &&
+                isset($_POST['mieszkanie']) && isset($_POST['vat']) && isset($_POST['submit']))
+                {  
+                    $nip = $_POST['nip'];
+                    $regon = $_POST['regon'];
+                    $nazwa = $_POST['nazwa'];
+                    $vat = $_POST['vat'];
+                    $ulica = $_POST['ulica'];
+                    $dom = $_POST['dom'];
+                    $mieszkanie = $_POST['mieszkanie'];
+                    $submit = $_POST['submit'];
+                    $dodaj = "INSERT INTO dane_kontrahentow (nip, regon, nazwa, czy_vat, ulica, dom, mieszkanie)
+                    VALUES ('$nip', '$regon','$nazwa','$vat','$ulica','$dom','$mieszkanie')";
+                    $qu = mysqli_query($conn, $dodaj);
+                }
+            ?>
     </table>
     <div id="panel">
-        <div id="dodawanie">Dodawanie</div>
-        <div id="edycja">Edycja</div>
-        <div id="usuwanie">Usuwanie</div>
+        <div id="dodawanie">
+            <form action="dane.php" method="POST">
+                
+                <label for="nip">NIP: </label>
+                <input type="number" name="nip" id="nip" required="required"> <br>
+                
+                <label for="regon">Regon: </label>
+                <input type="number" name="regon" id="regon" required="required"> <br>
+                
+                <label for="nazwa">Nazwa: </label>
+                <input type="text" name="nazwa" id="nazwa" required="required"> <br>
+                
+                <label for="vat">Czy płatnik VAT: </label>
+                <input type="hidden" id="vat" value="Nie" name="vat" checked>
+                <input type="checkbox" id="vat" value="Tak" name="vat" ><br>
+                
+                <label for="ulica">Ulica: </label>
+                <input type="text" name="ulica" id="ulica" required="required"> <br>
+                
+                <label for="dom">Numer domu: </label>
+                <input type="number" name="dom" id="dom" required="required"> <br>
+
+                <label for="mieszkanie">Numer mieszkania: </label>
+                <input type="number" name="mieszkanie" id="mieszkanie"><br>
+
+                <input type="submit" value="Dodaj!" name="submit" required="required">
+            </form>
+        </div>
     </div>
     </div>   
 </body>

@@ -22,7 +22,7 @@
     </div>
     <div id="prawy">
         <table>
-            <tr>
+            <tr style="background-color: blue;">
                 <th>Lp.</th>
                 <th>Imię</th>
                 <th>Nazwisko</th>
@@ -30,10 +30,60 @@
                 <th>Data zatrudnienia</th>
                 <th>Ilość dni urlopowych</th>
             </tr>
-            <!-- Wypełnij ją przykładowymi danymi dla co najmniej 5 osób. Wiersze niech będą kolorowane naprzemiennie 2 kolorami, które będzie
-można wybrać za pomocą color pickera. -->
+            <tr style="background-color: green;">
+                <td>1. </td>
+                <td>Marek</td>
+                <td>Towarek</td>
+                <td>Designer</td>
+                <td>27-03-2011</td>
+                <td>20</td>
+            </tr>
+            <tr style="background-color: blue;">
+                <td>2. </td>
+                <td>Zbyszek</td>
+                <td>Kieliszek</td>
+                <td>Developer</td>
+                <td>12-09-2010</td>
+                <td>26</td>
+            </tr>
+            <tr style="background-color: green;">
+                <td>3. </td>
+                <td>Grzesiek</td>
+                <td>Kowalski</td>
+                <td>Developer</td>
+                <td>24-04-2005</td>
+                <td>26</td>
+            </tr>
+            <tr style="background-color: blue;">
+                <td>4. </td>
+                <td>Ania</td>
+                <td>Kania</td>
+                <td>Menager</td>
+                <td>30-11-2020</td>
+                <td>20</td>
+            </tr>
+            <tr style="background-color: green;">
+                <td>5. </td>
+                <td>Hania</td>
+                <td>Mania</td>
+                <td>Designer</td>
+                <td>10-10-2010</td>
+                <td>20</td>
+            </tr>
         </table>
+        <p>Wybierz pierwszy i drugi kolor:</p>
+
+        <div>
+            <input type="color" id="first" name="first" value="#0000ff" onchange="changeColor()">
+            <label for="first">Pierwszy </label>
+        </div>
+
+        <div>
+            <input type="color" id="second" name="second" value="#00ff00" onchange="changeColor()">
+            <label for="second">Drugi</label>
+        </div>
     </div>   
+    <script src="./pracownicy.js"></script>
 </body>
 
 </html>

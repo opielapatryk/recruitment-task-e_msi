@@ -32,17 +32,66 @@
                 <th>Wartość Netto</th>
                 <th>Wartość Brutto</th>
             </tr>
+            <tr>
+                <td>1</td>
+                <td>Usługi sieciowe</td>
+                <td>Firma usługowa</td>
+                <td>283.74 </td>
+                <td class="ilosc">1</td>
+                <td class="vat">23</td>
+                <td>349</td>
+                <td>283.74 </td>
+                <td class="bruttoWartosc"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sprzęt elektroniczny</td>
+                <td>Dział programistów</td>
+                <td>12036.11</td>
+                <td class="ilosc">2</td>
+                <td class="vat">8</td>
+                <td>12999</td>
+                <td>12 036.11</td>
+                <td class="bruttoWartosc"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Paliwo</td>
+                <td>Departament logistyki </td>
+                <td>1075.61</td>
+                <td class="ilosc">1</td>
+                <td class="vat">23</td>
+                <td>1323</td>
+                <td>1 075.61</td>
+                <td class="bruttoWartosc">1111</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Usługa hostingowa</td>
+                <td>Firma mediowa</td>
+                <td>559.81</td>
+                <td class="ilosc">1</td>
+                <td class="vat">7</td>
+                <td>599</td>
+                <td>559.81</td>
+                <td class="bruttoWartosc">1200</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>RTV</td>
+                <td>Dział developerów</td>
+                <td>7766.02</td>
+                <td class="ilosc">1</td>
+                <td class="vat">3</td>
+                <td>7999</td>
+                <td>7766.02</td>
+                <td class="bruttoWartosc">1000</td>
+            </tr>
         </table>
-        <button>Powyżej 1000,00zł Netto</button>
-        <!-- 
-ii. Wypełnij ją przykładowymi danymi dla co najmniej 5 pozycji faktury.
-iii. Tabela powinna być interaktywna co oznacza, że Kwota Brutto, Wartość
-Netto i Wartość Brutto będą przeliczały się w zależności od Kwoty Netto,
-wybranego z listy Vatu oraz Ilości.
-iv. Po  wciśnięciu przycisku wszystkie wiersze,
-które zawierają w polu Kwota Netto > 1000,00 zł podświetlają się na kolor
-zielony.  -->
-    </div>   
+        <button>Powyżej 1000.00zł Netto</button>
+        
+    </div>
+    <script src="./faktury.js"></script>   
 </body>
 
 </html>
