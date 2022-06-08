@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/body.css">
-    <link rel="stylesheet" href="dist/pracownicy.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/pracownicy.css">
     <title>Document</title>
 </head>
 
@@ -83,7 +83,7 @@
             <label for="second">Drugi</label>
         </div>
     </div>   
-    <script src="./pracownicy.js"></script>
+    <script src="./js/pracownicy.js"></script>
 </body>
 
 </html>

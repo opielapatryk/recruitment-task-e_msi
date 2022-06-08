@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/body.css">
+    <link rel="stylesheet" href="css/dane.css">
     <title>Document</title>
 </head>
 
@@ -51,11 +51,11 @@
                 
                 <label for="nazwa">Nazwa: </label>
                 <input type="text" name="nazwa" id="nazwa" required="required"> <br>
-                
+                <div class="form-group">
                 <label for="vat">Czy płatnik VAT: </label>
                 <input type="hidden" id="vat" value="Nie" name="vat" checked>
                 <input type="checkbox" id="vat" value="Tak" name="vat" ><br>
-                
+                </div><br>
                 <label for="ulica">Ulica: </label>
                 <input type="text" name="ulica" id="ulica" required="required"> <br>
                 
@@ -100,11 +100,11 @@
                 
                 <label for="edytujnazwa">Nazwa: </label>
                 <input type="text" name="edytujnazwa" id="edytujnazwa" required="required"> <br>
-                
+                <div class="form-group">
                 <label for="edytujvat">Czy płatnik VAT: </label>
                 <input type="hidden" id="edytujvat" value="Nie" name="edytujvat" checked>
                 <input type="checkbox" id="edytujvat" value="Tak" name="edytujvat" ><br>
-                
+                </div><br>
                 <label for="edytujulica">Ulica: </label>
                 <input type="text" name="edytujulica" id="edytujulica" required="required"> <br>
                 
