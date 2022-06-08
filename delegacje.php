@@ -29,10 +29,14 @@
                 <th>Miejsce wyjazdu:</th>
                 <th>Miejsce przyjazdu:</th>
             </tr>
+            <?php
+        $connect = mysqli_connect('localhost', 'root', '', 'rekrutacjaopiela');
+        $result = mysqli_query($connect, "SELECT lp, imie_i_nazwisko, data_od, data_do, miejsce_wyjazdu, miejsce_przyjazdu FROM delegacje");
+        while($row = mysqli_fetch_row($result)){
+            echo '<tr><td>'.$row[0].'</td><td>'.$row[1].'</td><td>'.$row[2].'</td><td>'.$row[3].'</td><td>'.$row[4].'</td><td>'.$row[5].'</td></tr>';
+        }
+        ?>
     </table>
-        <!-- 
-ii. Po załadowaniu strony, pobierz dane do tabeli z bazy danych, która będzie
-zawierała przynajmniej 6 krotek z danymi.  -->
     </div>   
 </body>
 

@@ -21,21 +21,21 @@
         </ul>
     </div>
     <div id="prawy">
-        <p>Dane kontrahenta: <br></p>
-        <form action="" method="get">
-            <label for="nip">NIP: </label><br>
+        <p>Dane kontrahenta:</p>
+        <form action="" method="post">
+            <label for="nip">NIP: </label>
             <input type="text" name="nip" id="nip"><br>
-            <label for="regon">REGON: </label><br>
+            <label for="regon">REGON: </label>
             <input type="text" name="regon" id="regon"><br>
-            <label for="nazwa">Nazwa: </label><br>
+            <label for="nazwa">Nazwa: </label>
             <input type="text" name="nazwa" id="nazwa"><br>
-            <label for="data">Data powstania: </label><br>
+            <label for="data">Data powstania: </label>
             <input type="date" name="data" id="data"><br>
-            <label for="ulica">Ulica: </label><br>
+            <label for="ulica">Ulica: </label>
             <input type="text" name="ulica" id="ulica"><br>
-            <label for="numer_domu">Numer domu: </label><br>
+            <label for="numer_domu">Numer domu: </label>
             <input type="text" name="numer_domu" id="numer_domu"><br>
-            <label for="numer_mieszkania">Numer mieszkania: </label><br>
+            <label for="numer_mieszkania">Numer mieszkania: </label>
             <input type="text" name="numer_mieszkania" id="numer_mieszkania"><br>
             <label for="uwagi">Uwagi: </label><br>
             <textarea name="uwagi" id="uwagi" cols="30" rows="10"></textarea> <br> 
@@ -48,7 +48,7 @@
                 <option value="granatowy">granatowy</option>
                 <option value="czerwony">czerwony</option>
                 <option value="biały">biały</option>
-            </select> <br>
+            </select> 
             <label for="vat">VAT: </label>
             <select name="vat" id="vat">
                 <option value="ZW">ZW</option>
@@ -57,7 +57,7 @@
                 <option value="3%">3%</option>
                 <option value="8%">8%</option>
                 <option value="23%">23%</option>
-            </select> <br>
+            </select> 
             <input type="submit" value="Wyślij!">
         </form>
         <ol>
